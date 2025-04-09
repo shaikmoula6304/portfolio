@@ -10,11 +10,13 @@ body {
 
 header {
     background-color:#000000
-    padding: 10px 0;
+
 }
+
 
 nav {
     display: flex;
+   flex-direction: row;
     justify-content: space-between;
     align-items: center;
     max-width: 100%;
@@ -45,7 +47,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color:whitesmoke;
+    color:rgb(255, 255, 255);
     transition: color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
     padding: 8px 12px;
     border-radius: 8px;
@@ -106,7 +108,7 @@ nav ul li a:hover {
 }
 
 .container2 {
-    color: white;
+    color: rgb(222, 199, 199);
     padding-left: 15%;
     font-size: 25px;
     width: 80%;
@@ -218,7 +220,7 @@ nav ul li a:hover {
 /* MEDIA QUERIES FOR RESPONSIVENESS */
 @media (max-width: 1024px) {
     .hero {
-        flex-direction: column;
+        flex-direction:row;
         text-align: center;
     }
 
@@ -245,9 +247,9 @@ nav ul li a:hover {
     }
 
     nav ul {
-        flex-direction: column;
+        flex-direction:row;
         align-items: flex-start;
-        background-color: #fff;
+        background-color: #000000;
         padding: 10px;
         border-radius: 10px;
     }
@@ -286,7 +288,7 @@ nav ul li a:hover {
 
 @media (max-width: 480px) {
     nav {
-        flex-direction: column;
+        flex-direction:row;
         align-items: flex-start;
     }
 
