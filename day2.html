@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHAIK-MOULALI - Web Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="day2.css">
+</head>
+<body>
+
+    <header  class="main-header">
+        <nav class="top-nav-desktop">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#Projects">Projects</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+        <button class="menu-toggle" id="menuToggle">☰</button>
+    </header>
+
+    <div class="side-navbar" id="sideNavbar">
+        <button class="close-btn" id="closeBtn">&times;</button> <ul class="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </div>
+
+
+    <main>
+ 
+<section id="home" class="hero-section">
+    <div class="hero-content">
+        <p class="greeting">Hey, I am <span class="highlight-name">Web Deveploer</span><span class="cursor">|</span></p>
+        <h1 class="highlight-name">Building your dream</h1>
+        <p class="secondary-tagline"><span class="highlight-word">pixel</span> by <span class="highlight-word">pixel!</span></p>
+        <div class="hero-buttons">
+            <a href="#about" class="btn primary-btn">Read More</a>
+        </div>
+    </div>
+</section>
+
+        <section id="about" class="about-section">
+            <h2>Why hire me for your next project?</h2>
+            <div class="about-content">
+                <div class="profile-picture">
+                    <img src="image.jpg" alt="SHAIK-MOULALIProfile Picture">
+                </div>
+                <div class="about-text">
+                    <p>I'm a recent Electronics and Communication Engineering graduate with a passion for web development. As a fresher, I'm actively engaged in developing software projects, applying my academic knowledge and continuously learning new technologies to create responsive and user-friendly web solutions.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <h3>1 years</h3>
+                            <p>Experience</p>
+                        </div>
+                        <div id="Projects" class="stat-item">
+                            <h3>+5 Projects</h3>
+                            <p> <a href="https://github.com/shaikmoula6304" >Projects</a></p>
+                        </div>
+                        <div class="stat-item">
+                            <h3><a href="https://github.com/shaikmoula6304" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a> GitHub</h3>
+                            <p> <a href="https://github.com/shaikmoula6304" >Profile</a></p>
+                        </div>
+                    </div>
+                    <div class="about-buttons">
+    <a href="mainresume.pdf" target="_blank" class="btn secondary-btn">Visit Resume</a>
+
+    <a href="mainresume.pdf" download="Your_Name_CV.pdf" class="btn primary-btn">Download CV</a>
+</div>
+        </section>
+
+        <section id="journey" class="journey-section">
+            <h2>My Academic and Professional Journey</h2>
+            <div class="journey-content">
+                <div class="education-section">
+                    <h3>Education</h3>
+                    <div class="timeline">
+                       
+                         <div class="timeline-item">
+                            <h4>Front-end Training & Internship</h4>
+                            <p>AICTE</p>
+                            </div>
+                        <div class="timeline-item">
+                            <h4>  B.Tech in ECE </h4>
+                            <p>PBR VITS affiliated of JNTUA </p>
+                            </div>
+                            <div class="timeline-item">
+                            <h4>Diploma in ECE </h4>
+                            <p>GOVT.Polytechnic college </p>
+                            </div>
+                           
+                    </div>
+                </div>
+                <div class="experience-section">
+                    <h3>Professional Experience</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h4>Software Developer</h4>
+                            <p></p>
+                            </div>
+                            
+                        <div class="timeline-item">
+                            <h4>Java Full Stack Developer Virtual Intenrship (Mar - July 2025)</h4>
+                            <p>AICTE</p>
+                            </div>
+                       
+                        <div class="timeline-item">
+                            <h4><a href="Google.jpg" >Google Android Developer Virtual Intenrship (Jan - Mar 2025)</a></h4>
+                            <p>Google Developers & AICTE</p>
+                            </div>
+                            <div class="timeline-item">
+                            <h4><a href="Microchip.jpg" > Microchip Embedded System Developer Virtual Intenrship (July - Sep 2024)</a>
+                               </h4>
+                            <p>MICROCHIP & AICTE</p>
+                            </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<section id="Skills" class="skills-section">
+    <h2>Tools and Skills</h2>
+    <div class="skills-tabs">
+        <button class="skill-tab active" data-category="frontend">Front-end</button>
+        <button class="skill-tab" data-category="backend">Back-end</button>
+        <button class="skill-tab" data-category="design">Design/UI/UX</button>
+        <button class="skill-tab" data-category="software-development">Software Development</button>
+    </div>
+
+    <div class="skills-content-wrapper">
+        <div id="frontend-category" class="skill-category-content active">
+          <div class="tools-list">
+    <h3>Tools</h3>
+    <ul>
+       <li><i class="fas fa-code tool-icon"></i> Visual Studio Code</li>
+         <li><i class="fab fa-git-alt tool-icon"></i> Git</li>
+        <li><i class="fab fa-github tool-icon"></i> GitHub</li>
+        <li><i class="fab fa-figma tool-icon"></i> Figma</li>
+    </ul>
+</div>
+            <div class="skills-list">
+                <h3>Skills</h3>
+                <div class="skill-item">
+                    <p>HTML</p>
+                    <div class="skill-bar-container"><div class="skill-bar" data-skill-width="85%"></div></div>
+                    <span class="skill-percentage">85%</span>
+                </div>
+                <div class="skill-item">
+                    <p>React</p>
+                    <div class="skill-bar-container"><div class="skill-bar" data-skill-width="90%"></div></div>
+                    <span class="skill-percentage">90%</span>
+                </div>
+                <div class="skill-item">
+                    <p>CSS</p>
+                    <div class="skill-bar-container"><div class="skill-bar" data-skill-width="90%"></div></div>
+                    <span class="skill-percentage">90%</span>
+                </div>
+                <div class="skill-item">
+                    <p>Javascript</p>
+                    <div class="skill-bar-container"><div class="skill-bar" data-skill-width="85%"></div></div>
+                    <span class="skill-percentage">85%</span>
+                </div>
+                <div class="skill-item">
+                    <p>Tailwind CSS</p>
+                    <div class="skill-bar-container"><div class="skill-bar" data-skill-width="80%"></div></div>
+                    <span class="skill-percentage">80%</span>
+                </div>
+                <div class="skill-item">
+                    <p>Bootstrap5</p>
+                    <div class="skill-bar-container"><div class="skill-bar" data-skill-width="70%"></div></div>
+                    <span class="skill-percentage">70%</span>
+                </div>
+                <div class="skill-item">
+                    <p>Typescript</p>
+                    <div class="skill-bar-container"><div class="skill-bar" data-skill-width="70%"></div></div>
+                    <span class="skill-percentage">70%</span>
+                </div>
+                <div class="skill-item">
+                    <p>Next (Nextjs)</p>
+                    <div class="skill-bar-container"><div class="skill-bar" data-skill-width="70%"></div></div>
+                    <span class="skill-percentage">70%</span>
+                </div>
+            </div>
+        </div>
+
+        <div id="backend-category" class="skill-category-content">
+            <div class="tools-list">
+                <h3>Tools</h3>
+                <ul>
+                    <li><i class="fab fa-python tool-icon"></i>Python</li>
+                    <li><i class="fab fa-java tool-icon"></i> Java</li>
+                    <li><i class="fas fa-database tool-icon"></i>  SQL Databases</li>
+                    <li><i class="fab fa-aws tool-icon"></i> AWS</li>
+                </ul>
+            </div>
+            <div class="skills-list">
+                <h3>Skills</h3>
+                <div class="skill-item">
+                    <p>Node.js</p>
+                    <div class="skill-bar-container"><div class="skill-bar" data-skill-width="80%"></div></div>
+                    <span class="skill-percentage">80%</span>
+                </div>
+                <div class="skill-item">
+                    <p>Express.js</p>
+                    <div class="skill-bar-container"><div class="skill-bar" data-skill-width="75%"></div></div>
+                    <span class="skill-percentage">75%</span>
+                </div>
+                <div class="skill-item">
+                    <p>MongoDB</p>
+                    <div class="skill-bar-container"><div class="skill-bar" data-skill-width="70%"></div></div>
+                    <span class="skill-percentage">70%</span>
+                </div>
+                <div class="skill-item">
+                    <p>REST APIs</p>
+                    <div class="skill-bar-container"><div class="skill-bar" data-skill-width="85%"></div></div>
+                    <span class="skill-percentage">85%</span>
+                </div>
+            </div>
+        </div>
+
+        <div id="design-category" class="skill-category-content">
+           <div class="tools-list">
+    <h3>Tools</h3>
+    <ul>
+        <li>
+            <a href="https://www.adobe.com/products/xd.html" target="_blank" aria-label="Adobe XD Website">
+                <i class="fas fa-brush  tool-icon"></i> Adobe XD
+            </a>
+        </li>
+        <li>
+            <a href="https://www.adobe.com/products/illustrator.html" target="_blank" aria-label="Adobe Illustrator Website">
+                <i class="fas fa-pen-nib tool-icon"></i> Illustrator
+            </a>
+        </li>
+         <li>
+            <a href="https://www.adobe.com/products/photoshop.html" target="_blank" aria-label="Adobe Photoshop Website">
+                <i class="fas fa-palette  tool-icon"></i> Photoshop
+            </a>
+        </li>
+        <li>
+            <a href="#" target="_blank" aria-label="User Research Information">
+                <i class="fas fa-search tool-icon"></i> User Research
+            </a>
+        </li>
+    </ul>
+</div>
+            <div class="skills-list">
+                <h3>Skills</h3>
+                <div class="skill-item">
+                    <p>UI Design</p>
+                    <div class="skill-bar-container"><div class="skill-bar" data-skill-width="90%"></div></div>
+                    <span class="skill-percentage">90%</span>
+                </div>
+                <div class="skill-item">
+                    <p>UX Principles</p>
+                    <div class="skill-bar-container"><div class="skill-bar" data-skill-width="85%"></div></div>
+                    <span class="skill-percentage">85%</span>
+                </div>
+                <div class="skill-item">
+                    <p>Wireframing</p>
+                    <div class="skill-bar-container"><div class="skill-bar" data-skill-width="80%"></div></div>
+                    <span class="skill-percentage">80%</span>
+                </div>
+                <div class="skill-item">
+                    <p>Prototyping</p>
+                    <div class="skill-bar-container"><div class="skill-bar" data-skill-width="75%"></div></div>
+                    <span class="skill-percentage">75%</span>
+                </div>
+            </div>
+        </div>
+
+        <div id="software-development-category" class="skill-category-content">
+           <div class="tools-list">
+    <h3>Tools</h3>
+    <ul>
+        <li>
+            <a href="https://docs.gitlab.com/ee/ci/" target="_blank" aria-label="GitLab CI/CD Website">
+                <i class="fab fa-gitlab tool-icon"></i> Gitlab CI/CD
+            </a>
+        </li>
+        <li>
+            <a href="https://www.docker.com/" target="_blank" aria-label="Docker Website">
+                <i class="fab fa-docker tool-icon"></i> Docker
+            </a>
+        </li>
+        <li>
+            <a href="https://kubernetes.io/" target="_blank" aria-label="Kubernetes Website">
+                <i class="fas fa-cubes tool-icon"></i> Kubernetes
+            </a>
+        </li>
+        <li>
+            <a href="https://jestjs.io/" target="_blank" aria-label="Jest Testing Framework Website">
+                <i class="fas fa-vial tool-icon"></i> Jest/Cypress
+            </a>
+        </li>
+    </ul>
+</div>
+            <div class="skills-list">
+                <h3>Skills</h3>
+                <div class="skill-item">
+                    <p>Problem Solving</p>
+                    <div class="skill-bar-container"><div class="skill-bar" data-skill-width="95%"></div></div>
+                    <span class="skill-percentage">95%</span>
+                </div>
+                <div class="skill-item">
+                    <p>Data Structures</p>
+                    <div class="skill-bar-container"><div class="skill-bar" data-skill-width="80%"></div></div>
+                    <span class="skill-percentage">80%</span>
+                </div>
+                <div class="skill-item">
+                    <p>Algorithms</p>
+                    <div class="skill-bar-container"><div class="skill-bar" data-skill-width="80%"></div></div>
+                    <span class="skill-percentage">80%</span>
+                </div>
+                <div class="skill-item">
+                    <p>Debugging</p>
+                    <div class="skill-bar-container"><div class="skill-bar" data-skill-width="90%"></div></div>
+                    <span class="skill-percentage">90%</span>
+                </div>
+            </div>
+        </div>
+        </div>
+        </section>
+
+       </main>
+
+    <footer id="Contact" class="main-footer-social">
+        <div class="social-links">
+            <a href="https://github.com/shaikmoula6304" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/shaikmoula/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://twitter.com/yourusername" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="mailto:shaikmoula6304@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+        <p>&copy; 2025 Shaik. All rights reserved.</p>
+    </footer>
+<script src="day2.js"></script>
+</body>
+</html>
